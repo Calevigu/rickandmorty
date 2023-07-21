@@ -1,0 +1,39 @@
+.divAbout{
+    width: 100%;
+    height: 90vh;
+    background-color: rgb(251, 255, 0);
+}
+.imgAbout{
+    width: 30%;
+    height: 40vh;
+    padding-top: 50px;
+    margin-left: 635px;
+}
+h1{
+    display: flex;
+    justify-content: center;
+    padding-top: 150px;
+    font-size: 50px;
+    font-family: fantasy;
+    color: pink;
+    letter-spacing: 2px;
+}
+p{
+    display: flex;
+    justify-content: center;
+    padding-top: 10px;
+    font-size: 20px;
+    font-family: monospace;
+    letter-spacing: 2px;
+}
+.footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 205px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    color: rgb(252, 0, 155);
+    background-color: pink;
+    border: solid 1px rgb(1, 247, 255);
+
+}

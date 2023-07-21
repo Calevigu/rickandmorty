@@ -1,0 +1,62 @@
+.divForm{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-image: url(gif6.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.Form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.label{
+    font-family: monospace;
+    letter-spacing: 2px;
+    font-size: 25px;
+    color: yellow;
+}
+.input{
+    height: 3vh;
+    width: 30%;
+    padding-left:6px ;
+    background-color: transparent;
+    font-family: monospace;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px rgb(255, 0, 170);
+}
+.input:hover{
+    background-image: url(gif10.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:initial;
+    box-shadow: 4px 4px 4px aqua;
+    border: 1px solid aqua;
+}
+.input1{
+    height: 3vh;
+    width: 30%;
+    background-color: transparent;
+    color: black;
+    letter-spacing: 4px;
+    font-family: fantasy;
+    font-size: 20px;
+    border: 1px solid aqua;
+    border-radius: 10px;
+    box-shadow: 4px 4px 4px aqua;
+    background-image: url(gif7.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position:initial;
+}
+.input1:hover{
+    background-color: rgb(253, 33, 33);
+}
+
+

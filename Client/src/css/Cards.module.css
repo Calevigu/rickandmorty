@@ -1,0 +1,12 @@
+.divCards{
+    display: flex;
+    justify-content: center;
+    margin-top: 120px;
+    gap: 20px;
+    font-size: 10px;
+    font-family: monospace;
+    letter-spacing: 2px;
+    transition: all 0.4s ease;
+    margin-right: 20px;
+    margin-left: 10px;
+}

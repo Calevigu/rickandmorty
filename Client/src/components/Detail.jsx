@@ -26,12 +26,12 @@ const Detail = () => {
   return (
     <div className={style.div}>
       <div className={style.div2}>
-        <h2>{character.name}</h2>
+        <h3>{character.name}</h3>
         <h2>{character.status}</h2>
         <h2>{character.species}</h2>
         <h2>{character.gender}</h2>
         <h2>{character.origin?.name}</h2>
-        <img src={character.image} alt={character.name} />
+        <img className={style.img2} src={character.image} alt={character.name} />
       </div>
     </div>
 
